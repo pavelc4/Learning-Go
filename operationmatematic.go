@@ -17,4 +17,21 @@ func main() {
 	fmt.Println("Pengurangan:", difference)
 	fmt.Println("Perkalian:", product)
 	fmt.Println("Pembagian:", quotient)
+
+	//Augmented Assignments
+	var i = 10
+	i += 30
+	fmt.Println(i)
+
+	i -= 5
+	fmt.Println(i)
+
+	i *= 5
+	fmt.Println(i)
+
+	i /= 5
+	fmt.Println(i)
+
+	i %= 5
+	fmt.Println(i)
 }
