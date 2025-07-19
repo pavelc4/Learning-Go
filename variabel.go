@@ -24,4 +24,12 @@ func main() {
 	hobby = " football"
 	fmt.Println(hobby)
 
+	//multiple var
+	var (
+		FirstnName = "Dimas"
+		MidelName  = "Dwi"
+		LastName   = "ariyanto"
+	)
+	println(FirstnName, MidelName, LastName)
+
 }
