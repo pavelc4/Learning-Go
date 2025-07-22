@@ -8,7 +8,5 @@ func main() {
 
 	if name == "dimas" {
 		fmt.Println("Benar")
-	} else {
-		fmt.Println("Salah")
 	}
 }
